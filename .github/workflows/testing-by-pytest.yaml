@@ -19,3 +19,17 @@ jobs:
           whoami
           sleep 10
           pwd
+
+  welcome_script_in_parallel:
+    runs-on: ubuntu-latestg
+    steps:
+      - name: Welcome part
+        run: echo 'Hello, guys 🌷'
+      - name: Get info
+        run: |
+          echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+          echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+          echo "🔎 The name of your branch is ${{ github.ref }} and your repository is"
+          whoami
+          sleep 10
+          pwdfgjhgfh
