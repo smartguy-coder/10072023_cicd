@@ -21,7 +21,7 @@ jobs:
           pwd
 
   welcome_script_in_parallel:
-    runs-on: ubuntu-latestg
+    runs-on: ubuntu-latest
     steps:
       - name: Welcome part
         run: echo 'Hello, guys 🌷'
