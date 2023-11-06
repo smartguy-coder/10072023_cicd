@@ -55,7 +55,7 @@ jobs:
           fi
       - name: check with linter
         run: |
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 .
       - name: pytest
         run: |
           pytest .
